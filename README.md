@@ -42,11 +42,11 @@ The project also compares the performance of the custom GBM against scikit-learn
    ```bash
    pip install numpy scikit-learn
 
-Key Insights- Lower learning rates require more estimators but yield smoother convergence.
+## Key Insights- Lower learning rates require more estimators but yield smoother convergence.
 - Higher learning rates converge faster but risk overfitting with deeper trees.
 - Increasing depth improves accuracy but can increase variance.
 - Custom GBM achieves performance comparable to scikit-learn, validating the implementation.
  
- Deliverables- Custom GBM class code (NumPy-only)
+## Deliverables- Custom GBM class code (NumPy-only)
 - Full script for data generation, training, and evaluation
 - Markdown report with metrics and analysis
